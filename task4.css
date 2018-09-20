@@ -1,0 +1,107 @@
+body{
+  font-size: 25px;
+ background: rgb(239,240,244)
+}
+.header{
+  background: rgb(95,192,205);
+  color: #fff;
+  height: 25px;
+  padding: 10px;
+  font-weight: 700;
+}
+.guanbi,
+.zhuce{
+  color:#fff;
+text-decoration: none;
+}
+.contanier1{
+  display: inline-block;
+  width: 20%;
+  float: left;
+}
+.contanier2{
+  width: 60%;
+  float: left;
+}
+.contanier3{
+  width: 20%;
+  float: left;
+}
+.zhuce{
+  float: left;
+  clear: both;
+}
+p{
+  margin:0 auto;
+  clear:
+}
+.guanbi{
+  float: right;
+  clear: both;
+}
+.form1{
+  width: 100%;
+  position:relative;
+  background:rgb(255,255,255);
+  margin-top: 10px;
+  height: 40px;
+ }
+.form-text1,
+.form-text2{
+  padding:8px 0 11px 40px;
+  border: 0px;
+  float: left;
+  display: inline-block;
+  width: 80%;
+  font-size: 16px;
+  outline: none;
+}
+.form2{
+  width: 100%;
+  background:rgb(255,255,255);
+  clear: both;
+  margin-top: 10px;
+  height: 40px;
+}
+.textimg1{
+  position: absolute;left: 0；z-index:5;
+  background-image: url('images/denglu1.png'); /*引入图片图片*/
+  background-repeat: no-repeat; /*设置图片不重复*/
+  background-position: 0px 0px; /*图片显示的位置*/
+  background-size: 35px 35px;
+  padding: 20px;
+  margin-top: px;
+  /*padding: 25px;0
+  background: url('denglu_02.png')no-repeat;
+  background-size: 50px 50px;
+  margin-top: 10px;*/
+}
+.textimg2{
+  position: absolute;left: 0；z-index:5;
+  background-image: url('images/denglu2.png'); /*引入图片图片*/
+  background-repeat: no-repeat; /*设置图片不重复*/
+  background-position: 0px 0px; /*图片显示的位置*/
+  background-size: 35px 35px;
+  padding: 20px;
+  margin-top: px;
+}
+.form3{
+  margin-top: 10px;
+}
+.form-sub{
+  width:100%;
+  background: rgb(95,192,205);
+  font-size:25px;
+  font-weight: 700;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor:pointer;
+}
+.foot1{
+  margin-top: 20px;
+  margin-right: 10px;
+  float: right;
+  color:rgb(95,192,205);
+  font-size: 20px;
+}
