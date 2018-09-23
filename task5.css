@@ -88,7 +88,7 @@ height: 160px;
 .pad1{
   padding-top:15px;
   padding-bottom: 15px;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid 	#DDDDDD;
   padding-left: 10px;
 }
 .header{
@@ -152,5 +152,9 @@ height: 160px;
 .container31{
   width: 82px;
 }
-.container32{
+.margin1{
+  margin-left: 10px;
+}
+.margin2{
+  margin-left: 10px;
 }
