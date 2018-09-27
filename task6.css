@@ -93,10 +93,6 @@
   height: 60px;
   background: #fff;
 }
-select{
-  border: none;
-  text-align: center;
-}
 .select1{
   width: 100%;
 }
@@ -112,6 +108,8 @@ select{
   height: 25px;
   text-align: center;
   text-align-last: center;
+  border: none;
+  outline: none;
 }
 .juzhong{
   margin: 0 auto;
@@ -121,6 +119,7 @@ select{
   height: 100px;
   border-bottom: 2px solid #eee;
   margin: 5px 0;
+
 }
 .box{
   display: flex;
@@ -128,10 +127,22 @@ select{
   justify-content: space-between;
   line-height: 2em;
 }
-.cont{
+.box1{
+  display: flex;
+  justify-content:center;
+}
+.cont,
+.part-family4,
+.part-family1{
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+}
+.cont{
+  margin-left: 15px;
+}
+.cont1{
+  margin-right: 15px;
 }
 .img5,
 .img6{
